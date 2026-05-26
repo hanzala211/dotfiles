@@ -74,6 +74,8 @@ return {
         direction = "float",      -- Makes it a floating window
         float_opts = {
           border = "curved",      -- Gives it that smooth look from the screenshot
+          width = math.floor(vim.o.columns * 0.8),
+          height = math.floor(vim.o.lines * 0.8),
           winblend = 0,
         },
       })
