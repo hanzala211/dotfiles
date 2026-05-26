@@ -1,0 +1,66 @@
+[user]
+	name = hanzala211
+	email = hanzalaoc211@gmail.com
+
+[core]
+        editor = vim
+
+[color]
+        ui = true
+
+[column]
+        ui = auto
+
+[branch]
+        sort = -committerdate
+
+[tag]
+        sort = version:refname
+
+[init]
+        defaultBranch = main
+
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        mnemonicPrefix = true
+        renames = true
+
+[push]
+        default = simple
+        autoSetupRemote = true
+        followTags = true
+
+[fetch]
+        prune = true
+        pruneTags = true
+        all = true
+
+[help]
+        autocorrect = prompt
+
+[commit]
+        verbose = true
+
+[rerere]
+        enabled = true
+        autoupdate = true
+
+[rebase]
+        autoSquash = true
+        autoStash = true
+        updateRefs = true
+
+
+[safe]
+	directory = /media/hanzallah-jawed/Data/Work/Agora-Scraping/agora-custom-crawlers
+	directory = /media/hanzallah-jawed/Data/Work/GO/distributed-task-scheduler
+	directory = /media/hanzallah-jawed/Data/Work/React JS/Agora/frontend-v2
+	directory = /media/hanzallah-jawed/Data/Work/NodeJS/Agora-backend
+	directory = /media/hanzallah-jawed/Data/Work/React JS/Khangee Projects/slack-integration
+	directory = /media/hanzallah-jawed/Data/Work/Agora-Scraping/recrawl-scripts
+	directory = /media/hanzallah-jawed/Data/Work/React JS/Agora/CustomerOrderTrackingApp
+	directory = /media/hanzallah-jawed/Data/Work/NodeJS/storeBuilderBackend
+	directory = /media/hanzallah-jawed/Data/Work/GO/coffee-ascii
+[credential]
+	helper = store
